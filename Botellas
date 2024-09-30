@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Venta de botellas PET para emprendedores y negocios de bebidas. ¡Inicia tu negocio con nuestras botellas de 800 ml y 1 L!">
+    <title>Venta de Botellas PET</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color: #4CAF50;
+            color: white;
+            text-align: center;
+            padding: 1rem;
+        }
+        nav {
+            display: flex;
+            justify-content: center;
+            background-color: #333;
+        }
+        nav a {
+            color: white;
+            padding: 1rem;
+            text-decoration: none;
+            text-transform: uppercase;
+        }
+        nav a:hover {
+            background-color: #4CAF50;
+        }
+        section {
+            padding: 2rem;
+            max-width: 800px;
+            margin: auto;
+        }
+        .hero {
+            background-image: url('botellas.jpg'); /* Aquí puedes agregar la imagen del producto */
+            background-size: cover;
+            background-position: center;
+            height: 400px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: white;
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+            font-size: 2rem;
+        }
+        .products {
+            display: flex;
+            justify-content: space-around;
+        }
+        .product {
+            text-align: center;
+            background-color: white;
+            padding: 1rem;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            width: 30%;
+        }
+        .cta {
+            text-align: center;
+            margin: 2rem 0;
+        }
+        .cta button {
+            padding: 1rem 2rem;
+            background-color: #4CAF50;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            font-size: 1.2rem;
+        }
+        .cta button:hover {
+            background-color: #45a049;
+        }
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 1rem;
+            margin-top: 2rem;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Botellas PET para Emprendedores</h1>
+    <p>Calidad y versatilidad para tu negocio de bebidas</p>
+</header>
+
+<nav>
+    <a href="#productos">Productos</a>
+    <a href="#beneficios">Beneficios</a>
+    <a href="#contacto">Contacto</a>
+</nav>
+
+<section class="hero">
+    <h2>Inicia tu Negocio de Bebidas con Nuestras Botellas</h2>
+</section>
+
+<section id="productos">
+    <h2>Nuestros Productos</h2>
+    <div class="products">
+        <div class="product">
+            <h3>Botella PET 800 ml</h3>
+            <p>Transparente, tapa de rosca blanca</p>
+            <p><strong>$5 MXN por unidad</strong></p>
+        </div>
+        <div class="product">
+            <h3>Botella PET 1 L</h3>
+            <p>Transparente, tapa de rosca blanca</p>
+            <p><strong>$6 MXN por unidad</strong></p>
+        </div>
+    </div>
+</section>
+
+<section id="beneficios">
+    <h2>Beneficios de Nuestras Botellas</h2>
+    <ul>
+        <li>Material reciclable y amigable con el medio ambiente</li>
+        <li>Ideales para todo tipo de bebidas: jugos, aguas, licuados, y más</li>
+        <li>Diseño elegante y práctico</li>
+        <li>Precios accesibles para emprendedores</li>
+    </ul>
+</section>
+
+<section class="cta">
+    <h2>¿Listo para Emprender?</h2>
+    <p>Empieza tu negocio de bebidas hoy mismo con nuestras botellas de alta calidad.</p>
+    <button>¡Cotiza Ahora!</button>
+</section>
+
+<footer id="contacto">
+    <p>Contáctanos: ventas@botellaspet.com | Tel: +52 123 456 7890</p>
+    <p>© 2024 Botellas PET. Todos los derechos reservados.</p>
+</footer>
+
+</body>
+</html>
